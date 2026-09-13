@@ -73,7 +73,7 @@
 "Texture {0}": "材质 {0}",
 "This animation has Havok index: {0}": "此动画的 Havok 索引为: {0}",
 "This item does not have a VFX. See the link below for information on adding one": "此对象未预置任何视效，点击下方链接以查阅如何为其添加一个视效 (英文)",
-"Tile {0}": "倾斜 {0}",
+"Tile {0}": "平铺 {0}",
 "Timeline [{0}] is Missing a Value": "时间线 [{0}] 缺少数值",
 "Timeline {0}": "时间线 {0}",
 "TmbReader constructor failed for {0}": "TmbReader 构造函数在 {0} 处发生错误",
