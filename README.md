@@ -6,8 +6,8 @@ VFXEditorRE（基于 [0ceal0t/Dalamud-VFXEditor](https://github.com/0ceal0t/Dala
 
 | 文件 | 条目数 | 用途 |
 | --- | --- | --- |
-| `l10n_static.json` | 1570 | 静态 UI 文本字典（英文原文 → 中文译文） |
-| `l10n_interp.json` | 113 | 插值文本模板字典（`"Emitter {0} ({1})"` → `"发射器 {0} ({1}"` 形式） |
+| `l10n_static.json` | 1636 | 静态 UI 文本字典（英文原文 → 中文译文） |
+| `l10n_interp.json` | 113 | 插值文本模板字典（`"Emitter {{0}} ({{1}}"` → `"发射器 {{0}} ({{1}}"` 形式） |
 | `manual_translations.json` | - | 人工校对/补充的翻译条目（构建字典的源数据之一） |
 | `fixes.json` | - | 对参考译文（AtmoOmen/VFXEditor-CN）的修正条目 |
 
@@ -23,5 +23,7 @@ VFXEditorRE（基于 [0ceal0t/Dalamud-VFXEditor](https://github.com/0ceal0t/Dala
 - AVFX 等格式的二进制 tag（`LpSt`、`SdNm` 等四字符码）一律不翻译
 - 括号内的骨骼代码名保留原文，如 `面部 (j_kao)`
 - 术语对齐 [AtmoOmen/VFXEditor-CN](https://github.com/AtmoOmen/VFXEditor-CN) 风格
+- Tile = 平铺（游戏开发术语）
+- 跨编辑器有歧义的单词保留英文原文（如 Normal / Screen / Add / Repeat）
 
 翻译成果基于 AtmoOmen/VFXEditor-CN，部分条目为人工校对与新增。
